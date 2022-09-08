@@ -1,7 +1,7 @@
 # TestApplication
 In this Android Application, Users can do the following:
 
--View weather info of different cities located in different Countries , including Beijing, Berlin, Cardiff, Edinburgh, london and Nottingham.
+-View weather info of different cities located in different Countries, including Beijing, Berlin, Cardiff, Edinburgh, london and Nottingham.
 
 -See the battery level of their device and clock which displays their current location time.
 
@@ -14,4 +14,4 @@ In this Android Application, Users can do the following:
  then local cache is also used to retrieve the information.
  
 -LiveData is also used to send latest data to the view as soon data updates are made or information is received from
- webserver or Local cache.
+ webserver or local cache.
