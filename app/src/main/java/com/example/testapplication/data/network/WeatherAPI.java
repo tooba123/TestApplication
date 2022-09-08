@@ -100,10 +100,6 @@ public class WeatherAPI {
                     else{
                         sendErrorResponse(httpURLConnection.getErrorStream(), weatherAPIResponseCallBack);
                     }
-
-
-
-
                 } catch (IOException e) {
                     sendErrorResponse(httpURLConnection.getErrorStream(), weatherAPIResponseCallBack);
                     e.printStackTrace();
@@ -220,7 +216,6 @@ public class WeatherAPI {
             @Override
             public void run() {
                 weatherAPIResponseCallBack.WeatherAPIResponseReceieved(parseErrorResponse(inputStream));
-                //networkResponseLiveData.setValue(parseErrorResponse(inputStream));
             }
         });
     }
