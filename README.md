@@ -2,7 +2,9 @@
 In this Android Application, Users can do the following:
 
 -View weather info of different cities located in different Countries , including Beijing, Berlin, Cardiff, Edinburgh, london and Nottingham.
+
 -See the battery level of their device and clock which displays their current location time.
+
 -View all other users installed apps info in device.
 
 # Inner Working
